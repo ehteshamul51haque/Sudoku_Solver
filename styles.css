@@ -1,0 +1,66 @@
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+nav {
+  color: #2f0a5b;
+  text-align: center;
+  padding: 14px 0;
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 900;
+}
+#puzzle {
+  width: 450px;
+  height: 450px;
+  margin: 20px auto;
+  gap: 2px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#puzzle input {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border: 1px rgb(146, 135, 135) solid;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+}
+.odd-section {
+  background-color: #cecbf3;
+}
+#solve-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #6f62fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#solution {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #2f0a5b;
+}
+#solve-button:hover {
+  background-color: #5142f5;
+}
